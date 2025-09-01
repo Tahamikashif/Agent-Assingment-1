@@ -1,0 +1,6 @@
+from agents import Agent,Runner,OpenAIChatCompletionsModel,AsyncOpenAI
+from dotenv import load_dotenv
+import os
+
+
+load_dotenv()
