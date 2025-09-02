@@ -14,7 +14,7 @@ client = AsyncOpenAI(api_key=gemini_api,base_url="https://generativelanguage.goo
 
 Model = OpenAIChatCompletionsModel(model="gemini-2.5-flash",openai_client=client)
 
-agent = Agent(name="Ratan lal",instructions="You are a helpful FAQ bot.",model=Model)
+agent = Agent(name="Ratan lal",instructions=“You are a helpful FAQ bot.”,model=Model)
 
 # async def main():
 #     result = await Runner.run(starting_agent=agent,input=input("Enter your Sentences::"))
